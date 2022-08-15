@@ -23,10 +23,15 @@ namespace duplicate_finder.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult InputProcessingResult(string input)
         {
-            return View();
+            var viewModel = new InputProcessingResultViewModel()
+            {
+                Output = input
+            };
+            return View(viewModel);
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
