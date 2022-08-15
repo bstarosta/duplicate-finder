@@ -1,0 +1,28 @@
+﻿input {
+    border: black 1px solid;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+button {
+    width: 200px;
+    margin: 0 auto 20px auto; 
+}
+
+main {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+p {
+    text-align: center
+}
+
+main div, form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}

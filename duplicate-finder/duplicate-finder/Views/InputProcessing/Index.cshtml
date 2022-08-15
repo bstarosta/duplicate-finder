@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <form asp-controller="InputProcessing" asp-action="InputProcessingResult" method="get">
+        <input name="input" type="text" />
+        <input type="submit" class="btn btn-primary" value="Process input" />
+    </form>
+</div>
